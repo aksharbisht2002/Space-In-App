@@ -1,0 +1,35 @@
+buildscript {
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.14'
+    }
+    repositories {
+        maven { url 'https://dl.google.com/dl/android/maven2' }
+        jcenter()
+        google()
+        'https://android.googlesource.com/platform/ndk'
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+plugins {
+    id 'com.android.application' version '7.3.1' apply false
+    id 'com.android.library' version '7.3.1' apply false
+}
+
+ allprojects {
+    repositories {
+        maven { url 'https://dl.google.com/dl/android/maven2' }
+        jcenter()
+        google()
+
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+

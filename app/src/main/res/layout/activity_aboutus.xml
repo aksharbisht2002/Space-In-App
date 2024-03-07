@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus"
+    android:background="@drawable/a1222">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="30dp">
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:text="The Idea Behind The SpaceIn"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="20dp"
+                    android:text="First of all, I would like to raise a question, Are you a Space Fan? Do you struggle gathering knowledge about space from the vast internet? Well if yes then, you are our audience. SpaceIn is made for the users who just want to spend their time reading facts and news about space in real time. We also provide quizes and games so you don't get bored of the space stuff. Generally people struggle to get all these thing in one place so, SpaceIn is the answer to your problems"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp">
+
+            <TextView
+                android:gravity="center"
+                android:text="Meet The Team"
+                android:textSize="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/gaurav">
+            </ImageView>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:text="Gaurav Mittal"
+                    android:textSize="20dp"></TextView>
+
+                <ImageView
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:src="@drawable/shreya">
+                </ImageView>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="Shreya Pandita"
+                android:layout_marginTop="400dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="500dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/akshar">
+            </ImageView>
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="200dp"
+                android:text="Akshar Bisht"
+                android:layout_marginTop="550dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="650dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/disha"
+                android:layout_marginBottom="50dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="Disha Chopra"
+                android:layout_marginTop="700dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+
+
+    }
+}
+rootProject.name = "SpaceIn"
+include ':app'
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('C:\\Users\\ASUS\\OneDrive\\Desktop\\Minor\\SpaceIn\\unityLibrary')

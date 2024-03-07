@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_1"
+    tools:context="com.example.spacein.extra_details">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_planet_detail"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:elevation="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_margin="16dp">
+                </ImageView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="64dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardBackgroundColor="@color/color_2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tv_name_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="name"
+                            android:textColor="@color/white"
+                            android:textSize="34sp"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true">
+                        </TextView>
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </RelativeLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Radius ="
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mass of Planet ="
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/mass_planet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Length of Day ="
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/length_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_gravity="left"
+                android:id="@+id/descrip_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:layout_margin="16dp"
+                />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Views On Maps="
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="htpssssssssssss"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

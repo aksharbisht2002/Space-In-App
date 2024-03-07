@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587126581779",
+    "project_id": "spacein-e946b",
+    "storage_bucket": "spacein-e946b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587126581779:android:6cfa2deaa0645b3123ade6",
+        "android_client_info": {
+          "package_name": "com.example.spacein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587126581779-72etg2bsoab54ea9i63683ul3mmp5c79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxhyvIzXlA_cTN4OPjHQPbuL8K5uxXIto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587126581779-72etg2bsoab54ea9i63683ul3mmp5c79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

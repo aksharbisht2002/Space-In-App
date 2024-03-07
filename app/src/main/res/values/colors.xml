@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#807C7C</color>
+    <color name="color_1">#3d3963</color>
+    <color name="color_2">#434273</color>
+    <color name="color_3">#2596fd</color>
+    <color name="yellow">#FFC107</color>
+    <color name="color_5">#9CFFFF</color>
+    <color name="color_4">#48AADF</color>
+    <color name="red">#A32222</color>
+    <color name="green">#8BC34A</color>
+    <color name="colorPrimary">#14192c</color>
+    <color name="colorPrimaryDark">#0A0F22</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="background">#D514192C</color>
+    <color name="akshar_200">#FFBB86FC</color>
+    <color name="akshar_500">#14192c</color>
+    <color name="akshar">#FF3700B3</color>
+    <color name="purple">#7D3C98</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="Mauve">#E0B0FF</color>
+    <color name="dpurple">#800080</color>
+    <color name="Eggplant">#F2D9F2</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="Thistle">#D8BFD8</color>
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="slateGray">#92C2DD</color>
+    <color name="light_purple">#D7BDE2</color>
+    <color name="slate">#D5DBDB</color>
+    <color name="transparent">#61FFFFFF</color>
+    <color name="endblue">#4bb6ef</color>
+    <color name="graylight">#E5ECF0</color>
+    <color name="startblue">#FF018786</color>
+    <color name="pallette1">#45a29e</color>
+    <color name="pallette2">#1f2833</color>
+    <color name="pallette3">#c5c6c7</color>
+    <color name="pallette4">#66fcf1</color>
+
+
+
+</resources>
