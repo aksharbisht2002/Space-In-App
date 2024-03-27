@@ -23,8 +23,7 @@ We welcome any feedback or suggestions you may have regarding SpaceIn. If you en
 
 ## Contributing
 
-SpaceIn is an open-source project, and we encourage contributions from the community. If you're interested in contributing to the development of SpaceIn, please refer to our [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
+SpaceIn is an open-source project, and we encourage contributions from the community. If you're interested in contributing to the development of SpaceIn
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -36,15 +35,11 @@ We would like to thank the following individuals and organizations for their con
 - [NASA](https://www.nasa.gov/) for providing valuable data and resources.
 - Our dedicated team of developers and designers who have worked tirelessly to create and maintain SpaceIn.
 
-## Contact
 
-For inquiries or support regarding SpaceIn, please contact us at [spacein@example.com](mailto:spacein@example.com).
 
-Follow us on [Twitter](https://twitter.com/SpaceInApp) for the latest updates and announcements.
 
----
 
-Feel free to customize this README according to your specific project details and requirements. If you have any questions or need further assistance, don't hesitate to ask!
+
 
 
 
